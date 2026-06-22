@@ -5,8 +5,10 @@ metadata:
   annotations:
     github.com/project-slug: arboleda-alejandro/argo-helm-alejo
     backstage.io/techdocs-ref: dir:.
+  description: Community-maintained Helm charts for Argo projects (ArgoCD, Argo Workflows, Argo Rollouts). Fork of argoproj/argo-helm.
 spec:
-  type: other
+  type: library
   lifecycle: experimental
   owner: user:default/arboleda-alejandro
+  system: gitops-platform
 
